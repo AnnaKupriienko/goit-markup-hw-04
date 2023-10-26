@@ -41,7 +41,7 @@ ul,ol {
 
 /* ====== HEADER STYLES ===== */
 .page-header{
-border-bottom: 1px solid #e7e9fc
+border-bottom: 1px solid #e7e9fc;
 }
 .container-header{
 display: flex;
@@ -118,7 +118,12 @@ font-style: normal;
 .hero{
     padding-top: 188px;
     padding-bottom: 188px;
-    background-color: #2e2f42;
+    background-color:#2E2F42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.70),
+        rgba(46, 47, 66, 0.70)),
+        url(../images/people-office\ 1.jpg);
+    background-size: cover;
 }
 .main-title{
         font-size: 56px;
@@ -130,6 +135,7 @@ font-style: normal;
         max-width: 496px;
         margin-left: auto;
         margin-right: auto;
+
 }
 .order-service-btn{
     display: block;
@@ -189,6 +195,16 @@ font-style: normal;
         color: #434455;
         max-width: 264px;
 }
+.features-icon{
+    display: block;
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+   padding: 24px 100px;
+margin-bottom: 8px;
+}
 /* ====== FEATURES STYLES ===== /*/
 
 /* ====== TEAM STYLES ===== */
@@ -237,8 +253,8 @@ margin-bottom: 72px;
 .container-team{
     padding-top: 32px;
     padding-bottom: 32px;
-
 }
+
 /* ====== TEAM STYLES ===== /*/
 
 /* ====== PORTFOLIO STYLES ===== */
@@ -279,6 +295,9 @@ margin-bottom: 72px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.overlay{
+    background-color: 4D5AE5;
 }
 /* ====== PORTFOLIO STYLES ===== /*/
 
