@@ -256,7 +256,9 @@ margin-bottom: 72px;
 }
 .container-team{
     padding-top: 32px;
-    padding-bottom: 32px;
+}
+.social-container{
+    margin-bottom: 32px;
 }
 .social-list{
     display: flex;
