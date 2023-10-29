@@ -284,7 +284,6 @@ padding-bottom: 32px;
 .social-item{
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .social-link{
     display: flex;
@@ -295,6 +294,7 @@ padding-bottom: 32px;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover
 .social-link:focus{
