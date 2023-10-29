@@ -119,10 +119,7 @@ font-style: normal;
     padding-top: 188px;
     padding-bottom: 188px;
     background-color:#2E2F42;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.70),
-        rgba(46, 47, 66, 0.70)),
-        url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)), url(../images/people-office\ 1.jpg);
     background-size: cover;
     max-width: 1440px;
     background-repeat: no-repeat;
