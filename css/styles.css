@@ -124,6 +124,9 @@ font-style: normal;
         rgba(46, 47, 66, 0.70)),
         url(../images/people-office\ 1.jpg);
     background-size: cover;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .main-title{
         font-size: 56px;
@@ -153,6 +156,7 @@ font-style: normal;
         letter-spacing: 0.04em;
         background-color:#4D5AE5 ;
         color: #FFFFFF;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 .order-service-btn:hover,
 .order-service-btn:focus{
@@ -195,15 +199,15 @@ font-style: normal;
         color: #434455;
         max-width: 264px;
 }
-.features-icon{
-    display: block;
-    background-color: #F4F4FD;
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#F4F4FD;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    width: 264px;
     height: 112px;
-   padding: 24px 100px;
-margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 /* ====== FEATURES STYLES ===== /*/
 
