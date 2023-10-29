@@ -255,16 +255,17 @@ margin-bottom: 72px;
     color: #434455;
 }
 .container-team{
-    padding-top: 32px;
+padding-top: 32px;
 }
 .social-container{
-    margin-bottom: 32px;
+   padding-top: 32px;
+   padding-bottom: 32px;
+    ;
 }
 .social-list{
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 8px;
 }
 .social-item{
     width: 40px;
