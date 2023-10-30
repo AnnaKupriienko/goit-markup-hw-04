@@ -396,7 +396,8 @@ fill: #f4f4fd;
     margin-right: 0;
 }
 .footer-social-container{
-    display: flex;
+    display: block;
+
 }
 .footer-social-text{
 font-size: 16px;
@@ -408,7 +409,7 @@ margin-bottom: 16px;
 }
 .footer-container{
     display: flex;
-    align-items: baseline
+    align-items: baseline;
 }
 .page-footer-container{
  width: 1158px;
